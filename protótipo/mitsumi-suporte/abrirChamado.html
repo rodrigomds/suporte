@@ -1,0 +1,67 @@
+<! DOCTYPE html>
+
+<html>
+	<head>
+		<title>Mitsumi Suporte</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/layout.css">
+		<link rel="shortcut icon" href="images/ico-aba.png" >
+	</head>
+	
+	<body>
+		<header id="cabecalho">
+			<a href="#">
+				<img src="images/logo.png" alt="Mitsumi Tecnologia - Suporte" title="Mitsumi Tecnologia - Suporte"/>
+			</a>
+			<div class="titulo">
+				Mitsumi Tecnologia - Suporte
+			</div>
+		</header>		
+		
+		<nav id="menuLateral">
+			<div class="subMenu" style="margin-top: 1em;">Chamados</div>
+				<p>
+					<a href="abrirChamado.html" class="linkMenu">Novo</a>
+					<a href="#" class="linkMenu">Em aberto</a>
+					<a href="#" class="linkMenu">Em andamento</a>
+					<a href="#" class="linkMenu">Resolvido</a>
+				</p>
+			<div class="subMenu">Conta</div>
+				<p>
+					<a href="redefinirSenha.html" class="linkMenu">Alterar Senha</a>
+					<a href="index.html" class="linkMenu">Sair</a>
+				</p>
+		</nav>
+		
+		<section id="conteudo">
+			<div align="center">
+				<form action="menuSuporte.html" method="POST">
+					<select type="select" id="tiposChamado" name="selChamado" class="espacoElementos">
+						<option value="0">Tipo do Chamado</option>
+						<option value="1">Manutenção</option>
+						<option value="2">Troca de Equipamento</option>
+					</select>
+					<br/>
+					<textarea name="txtDescricao" placeholder="Mais Detalhes" rows="4" col="50" class="espacoElementos"></textarea>
+					<br/>
+					<select type="select" id="prioridade" name="selprioridade" class="espacoElementos">
+						<option value="0">Prioridade</option>
+						<option value="1">Alta</option>
+						<option value="2">Média</option>
+						<option value="2">Baixa</option>
+					</select>
+					<br/>
+					<input type="submit" name="btnAbrir" value="Abrir" class="espacoElementos"/>
+				</form>
+			</div>
+		</section>
+		
+		<footer id="rodape">
+			<h3 style="text-align: center;">
+				Copyright © Suporte
+			</h3>
+		</footer>
+	
+	</body>
+
+</html>

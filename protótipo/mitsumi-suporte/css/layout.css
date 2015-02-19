@@ -1,0 +1,82 @@
+BODY {
+	cursor: default;
+	font-family: Arial, Helvetica;
+	font-size: 11px;
+	padding: 5px;
+	background: none repeat scroll 0 0 #F8F8F8;
+}
+
+#cabecalho {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 90px;
+	margin: 0px;
+	background: url("../images/bg-header.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0)
+}
+
+#cabecalho img {
+	/*vertical-align: middle;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+	float: left;
+	margin: 13px 6px -5px;
+	padding: 0px;
+}
+
+#cabecalho .titulo {
+	margin-top: 30px;
+	margin-right: 120px;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-family: "Lucida Grande",verdana,arial,helvetica,sans-serif;
+	text-align: center;
+	text-shadow: 0 -2px rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+}
+
+#menuLateral {
+	position: absolute;
+	top: 90px;
+	width: 160px;
+}
+
+#conteudo {
+	position: relative;
+	top: 150px;
+	/*left: 200px;*/
+}
+
+.espacoElementos {
+	margin-bottom: 1em;
+}
+
+#rodape {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.subMenu {
+	font-weight: bold;
+	font-family: Arial, Helvetica;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+a.linkMenu:link {  
+	color:#696969;
+	text-decoration:none;
+	display: block;
+}
+a.linkMenu:visited {   
+	color:#696969;
+	text-decoration:none;
+}
+a.linkMenu:hover {
+	color:#000000;
+	text-decoration:underline;
+}
